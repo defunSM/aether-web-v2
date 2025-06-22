@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
@@ -69,7 +71,15 @@ export default function Home() {
           </div>
           {/* Placeholder for a screenshot or illustration */}
           <div className="bg-gray-100 rounded-xl shadow-xl p-8 flex items-center justify-center min-h-[300px] overflow-hidden">
-            <img src="aether.gif" alt="Aether AI Assistant Screenshot" className="rounded-lg w-full h-auto object-cover max-w-full" />
+            <Image 
+              src="/aether.gif" 
+              alt="Aether AI Assistant Screenshot" 
+              width={500}
+              height={300}
+              className="rounded-lg w-full h-auto object-cover max-w-full"
+              priority
+              unoptimized
+            />
           </div>
         </div>
       </section>
