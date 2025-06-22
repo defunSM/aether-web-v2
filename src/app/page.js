@@ -180,9 +180,9 @@ export default function Home() {
       {/* About the Name "Aether" Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">About the Name "Aether"</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">About the Name &quot;Aether&quot;</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            In ancient Greek mythology and science, "Aether" (also spelled "Ether") was believed to be the pure essence that the gods breathed, filling the space where they lived and the upper sky. It represented the bright, glowing upper air and was thought to be the medium that enabled light and energy to travel. We chose this name to reflect our mission: bringing clarity, intelligence, and a touch of the extraordinary to your digital experience.
+            In ancient Greek mythology and science, &quot;Aether&quot; (also spelled &quot;Ether&quot;) was believed to be the pure essence that the gods breathed, filling the space where they lived and the upper sky. It represented the bright, glowing upper air and was thought to be the medium that enabled light and energy to travel. We chose this name to reflect our mission: bringing clarity, intelligence, and a touch of the extraordinary to your digital experience.
           </p>
         </div>
       </section>
