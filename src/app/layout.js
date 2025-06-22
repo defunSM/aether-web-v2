@@ -1,5 +1,12 @@
 import "./globals.css";
 import Script from "next/script";
+import { Sen } from "next/font/google";
+
+const sen = Sen({
+  subsets: ["latin"],
+  weight: ["400", "700", "800"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Aether AI Assistant",
@@ -8,9 +15,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={sen.className}>
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet" />
       </head>
       <body className="antialiased">
         <Script 
