@@ -1,5 +1,4 @@
 import "./globals.css";
-import Script from "next/script";
 import { Sen } from "next/font/google";
 
 const sen = Sen({
@@ -19,10 +18,6 @@ export default function RootLayout({ children }) {
       <head>
       </head>
       <body className="antialiased">
-        <Script 
-          src="https://cdn.tailwindcss.com"
-          strategy="beforeInteractive"
-        />
         {children}
       </body>
     </html>
